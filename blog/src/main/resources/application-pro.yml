@@ -1,0 +1,23 @@
+spring:
+#    配置数据源
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    password: 133244
+    username: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+#      输出sql语句在控制台或日志中
+    show-sql: true
+
+# 配置日志(日志级别， 以及日志存放地址)
+logging:
+  level:
+    root: warn
+    com.weiss: info
+  file: log/blog-pro.log
+
+server:
+  port: 8081

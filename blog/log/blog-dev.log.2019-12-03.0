@@ -1,0 +1,381 @@
+2019-12-03 20:32:17.801  INFO 13888 --- [restartedMain] com.weiss.blog.BlogApplication           : Starting BlogApplication on Weiss with PID 13888 (C:\Users\weiss\Desktop\blog\target\classes started by weiss in C:\Users\weiss\Desktop\blog)
+2019-12-03 20:32:17.814 DEBUG 13888 --- [restartedMain] com.weiss.blog.BlogApplication           : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-12-03 20:32:17.815  INFO 13888 --- [restartedMain] com.weiss.blog.BlogApplication           : The following profiles are active: dev
+2019-12-03 20:32:18.048  INFO 13888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-03 20:32:18.049  INFO 13888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-03 20:32:20.078  INFO 13888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-03 20:32:20.334  INFO 13888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 235ms. Found 5 repository interfaces.
+2019-12-03 20:32:21.375  INFO 13888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d2c56ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-03 20:32:22.809  INFO 13888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 91 (http)
+2019-12-03 20:32:22.873  INFO 13888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-03 20:32:22.874  INFO 13888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-12-03 20:32:23.314  INFO 13888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-03 20:32:23.315  INFO 13888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5263 ms
+2019-12-03 20:32:23.941  INFO 13888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-03 20:32:24.423  INFO 13888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-03 20:32:24.517  INFO 13888 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-03 20:32:24.727  INFO 13888 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-12-03 20:32:24.752  INFO 13888 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-03 20:32:25.126  INFO 13888 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-03 20:32:25.931  INFO 13888 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-03 20:32:30.233  INFO 13888 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-03 20:32:30.476  INFO 13888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-03 20:32:31.874  INFO 13888 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-03 20:32:32.976  INFO 13888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-03 20:32:33.057  WARN 13888 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-03 20:32:33.147  INFO 13888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-03 20:32:34.052  INFO 13888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 91 (http) with context path ''
+2019-12-03 20:32:34.058  INFO 13888 --- [restartedMain] com.weiss.blog.BlogApplication           : Started BlogApplication in 17.482 seconds (JVM running for 20.462)
+2019-12-03 20:32:48.155  INFO 11792 --- [restartedMain] com.weiss.blog.BlogApplication           : Starting BlogApplication on Weiss with PID 11792 (C:\Users\weiss\Desktop\blog\target\classes started by weiss in C:\Users\weiss\Desktop\blog)
+2019-12-03 20:32:48.160 DEBUG 11792 --- [restartedMain] com.weiss.blog.BlogApplication           : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-12-03 20:32:48.161  INFO 11792 --- [restartedMain] com.weiss.blog.BlogApplication           : The following profiles are active: dev
+2019-12-03 20:32:48.364  INFO 11792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-03 20:32:48.365  INFO 11792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-03 20:32:49.701  INFO 11792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-03 20:32:50.015  INFO 11792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 300ms. Found 5 repository interfaces.
+2019-12-03 20:32:50.992  INFO 11792 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$934212ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-03 20:32:51.878  INFO 11792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 91 (http)
+2019-12-03 20:32:51.921  INFO 11792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-03 20:32:51.923  INFO 11792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-12-03 20:32:52.191  INFO 11792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-03 20:32:52.192  INFO 11792 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3827 ms
+2019-12-03 20:32:52.402  INFO 11792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-03 20:32:52.674  INFO 11792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-03 20:32:52.765  INFO 11792 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-03 20:32:52.855  INFO 11792 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-12-03 20:32:52.857  INFO 11792 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-03 20:32:53.001  INFO 11792 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-03 20:32:53.223  INFO 11792 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-03 20:32:54.281  INFO 11792 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-03 20:32:54.373  INFO 11792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-03 20:32:54.973  INFO 11792 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-03 20:32:55.703  INFO 11792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-03 20:32:55.768  WARN 11792 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-03 20:32:55.842  INFO 11792 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-03 20:32:56.651  INFO 11792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 91 (http) with context path ''
+2019-12-03 20:32:56.655  INFO 11792 --- [restartedMain] com.weiss.blog.BlogApplication           : Started BlogApplication in 9.856 seconds (JVM running for 11.624)
+2019-12-03 20:33:38.343  INFO 11792 --- [http-nio-91-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-03 20:33:38.346  INFO 11792 --- [http-nio-91-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-03 20:33:38.398  INFO 11792 --- [http-nio-91-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
+2019-12-03 20:33:38.664  INFO 11792 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/blog/31', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.IndexController.blog', args=[31, {}]}
+2019-12-03 20:33:38.967  INFO 11792 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Result £º blog 
+2019-12-03 20:33:41.945  INFO 11792 --- [http-nio-91-exec-5] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/comments/31', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.CommentController.comments', args=[31, {}]}
+2019-12-03 20:33:42.047  INFO 11792 --- [http-nio-91-exec-5] com.weiss.blog.aspect.LogAspect          : Result £º blog :: commentList 
+2019-12-03 20:33:42.842  INFO 11792 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:33:42.865  WARN 11792 --- [http-nio-91-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-03 20:33:42.910  INFO 11792 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Result £º types 
+2019-12-03 20:33:52.164  INFO 11792 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:33:52.176  WARN 11792 --- [http-nio-91-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-03 20:33:52.208  INFO 11792 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:33:57.204  INFO 11792 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/16', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 16, {}]}
+2019-12-03 20:33:57.226  INFO 11792 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:34:04.244  INFO 11792 --- [http-nio-91-exec-7] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/20', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 20, {}]}
+2019-12-03 20:34:04.269  INFO 11792 --- [http-nio-91-exec-7] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:34:05.636  INFO 11792 --- [http-nio-91-exec-10] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/16', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 16, {}]}
+2019-12-03 20:34:05.660  INFO 11792 --- [http-nio-91-exec-10] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:34:14.241  INFO 11792 --- [http-nio-91-exec-3] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/blog/31', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.IndexController.blog', args=[31, {}]}
+2019-12-03 20:34:14.255  INFO 11792 --- [http-nio-91-exec-3] com.weiss.blog.aspect.LogAspect          : Result £º blog 
+2019-12-03 20:34:15.351  INFO 11792 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/comments/31', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.CommentController.comments', args=[31, {}]}
+2019-12-03 20:34:15.383  INFO 11792 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Result £º blog :: commentList 
+2019-12-03 20:35:11.052  INFO 11792 --- [http-nio-91-exec-8] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:35:11.065  INFO 11792 --- [http-nio-91-exec-8] com.weiss.blog.aspect.LogAspect          : Result £º types 
+2019-12-03 20:35:26.114  INFO 11792 --- [http-nio-91-exec-5] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/blog/30', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.IndexController.blog', args=[30, {}]}
+2019-12-03 20:35:26.129  INFO 11792 --- [http-nio-91-exec-5] com.weiss.blog.aspect.LogAspect          : Result £º blog 
+2019-12-03 20:35:27.278  INFO 11792 --- [http-nio-91-exec-3] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/comments/30', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.CommentController.comments', args=[30, {}]}
+2019-12-03 20:35:27.281  INFO 11792 --- [http-nio-91-exec-3] com.weiss.blog.aspect.LogAspect          : Result £º blog :: commentList 
+2019-12-03 20:35:33.496  INFO 11792 --- [http-nio-91-exec-8] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/blog/24', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.IndexController.blog', args=[24, {}]}
+2019-12-03 20:35:33.515  INFO 11792 --- [http-nio-91-exec-8] com.weiss.blog.aspect.LogAspect          : Result £º blog 
+2019-12-03 20:35:34.680  INFO 11792 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/comments/24', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.CommentController.comments', args=[24, {}]}
+2019-12-03 20:35:34.684  INFO 11792 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Result £º blog :: commentList 
+2019-12-03 20:36:27.519  INFO 6156 --- [restartedMain] com.weiss.blog.BlogApplication           : Starting BlogApplication on Weiss with PID 6156 (C:\Users\weiss\Desktop\blog\target\classes started by weiss in C:\Users\weiss\Desktop\blog)
+2019-12-03 20:36:27.525 DEBUG 6156 --- [restartedMain] com.weiss.blog.BlogApplication           : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-12-03 20:36:27.526  INFO 6156 --- [restartedMain] com.weiss.blog.BlogApplication           : The following profiles are active: dev
+2019-12-03 20:36:27.697  INFO 6156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-03 20:36:27.698  INFO 6156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-03 20:36:29.302  INFO 6156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-03 20:36:29.493  INFO 6156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 178ms. Found 5 repository interfaces.
+2019-12-03 20:36:30.108  INFO 6156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c88e4ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-03 20:36:30.860  INFO 6156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 91 (http)
+2019-12-03 20:36:30.896  INFO 6156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-03 20:36:30.896  INFO 6156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-12-03 20:36:31.486  INFO 6156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-03 20:36:31.488  INFO 6156 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3789 ms
+2019-12-03 20:36:31.956  INFO 6156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-03 20:36:32.305  INFO 6156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-03 20:36:32.415  INFO 6156 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-03 20:36:32.659  INFO 6156 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-12-03 20:36:32.663  INFO 6156 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-03 20:36:32.867  INFO 6156 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-03 20:36:33.101  INFO 6156 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-03 20:36:34.502  INFO 6156 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-03 20:36:34.599  INFO 6156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-03 20:36:35.244  INFO 6156 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-03 20:36:36.077  INFO 6156 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-03 20:36:36.174  WARN 6156 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-03 20:36:36.249  INFO 6156 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-03 20:36:37.051  INFO 6156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 91 (http) with context path ''
+2019-12-03 20:36:37.056  INFO 6156 --- [restartedMain] com.weiss.blog.BlogApplication           : Started BlogApplication in 11.022 seconds (JVM running for 13.568)
+2019-12-03 20:37:07.691  INFO 6156 --- [http-nio-91-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-03 20:37:07.700  INFO 6156 --- [http-nio-91-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-03 20:37:07.801  INFO 6156 --- [http-nio-91-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 97 ms
+2019-12-03 20:37:07.916  INFO 6156 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/blog/31', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.IndexController.blog', args=[31, {}]}
+2019-12-03 20:37:08.151  INFO 6156 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Result £º blog 
+2019-12-03 20:37:10.220  INFO 6156 --- [http-nio-91-exec-4] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/comments/31', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.CommentController.comments', args=[31, {}]}
+2019-12-03 20:37:10.317  INFO 6156 --- [http-nio-91-exec-4] com.weiss.blog.aspect.LogAspect          : Result £º blog :: commentList 
+2019-12-03 20:37:14.810  INFO 6156 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:37:14.821  WARN 6156 --- [http-nio-91-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-03 20:37:14.852  INFO 6156 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Result £º types 
+2019-12-03 20:37:24.493  INFO 6156 --- [http-nio-91-exec-7] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:37:24.504  WARN 6156 --- [http-nio-91-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-03 20:37:24.532  INFO 6156 --- [http-nio-91-exec-7] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:37:30.948  INFO 6156 --- [http-nio-91-exec-9] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:37:30.959  INFO 6156 --- [http-nio-91-exec-9] com.weiss.blog.aspect.LogAspect          : Result £º types 
+2019-12-03 20:37:37.541  INFO 6156 --- [http-nio-91-exec-4] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/types/3', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2019-12-03 20:37:37.569  INFO 6156 --- [http-nio-91-exec-4] com.weiss.blog.aspect.LogAspect          : Result £º types 
+2019-12-03 20:37:49.254  INFO 6156 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/types/22', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 22, {}]}
+2019-12-03 20:37:49.285  INFO 6156 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Result £º types 
+2019-12-03 20:37:53.336  INFO 6156 --- [http-nio-91-exec-3] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/types/22', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 22, {}]}
+2019-12-03 20:37:53.353  INFO 6156 --- [http-nio-91-exec-3] com.weiss.blog.aspect.LogAspect          : Result £º types 
+2019-12-03 20:37:59.568  INFO 6156 --- [http-nio-91-exec-9] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:37:59.588  INFO 6156 --- [http-nio-91-exec-9] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:38:01.858  INFO 6156 --- [http-nio-91-exec-4] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/16', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 16, {}]}
+2019-12-03 20:38:01.882  INFO 6156 --- [http-nio-91-exec-4] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:38:09.667  INFO 6156 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/20', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 20, {}]}
+2019-12-03 20:38:09.699  INFO 6156 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:41:45.769 ERROR 6156 --- [http-nio-91-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-91-exec-2] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "page.totalElements" (template: "index" - line 47, col 87)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "page.totalElements" (template: "index" - line 47, col 87)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 54 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalElements' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:109)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 73 common frames omitted
+
+2019-12-03 20:41:45.798 ERROR 6156 --- [http-nio-91-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalElements' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:109)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-12-03 20:41:47.132  INFO 6156 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:41:47.150  INFO 6156 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Result £º types 
+2019-12-03 20:41:48.588  INFO 6156 --- [http-nio-91-exec-8] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:41:48.613  INFO 6156 --- [http-nio-91-exec-8] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:41:50.662  INFO 6156 --- [http-nio-91-exec-10] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:41:50.684  INFO 6156 --- [http-nio-91-exec-10] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:41:52.292  INFO 6156 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:41:52.312  INFO 6156 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:42:52.108  INFO 2108 --- [restartedMain] com.weiss.blog.BlogApplication           : Starting BlogApplication on Weiss with PID 2108 (C:\Users\weiss\Desktop\blog\target\classes started by weiss in C:\Users\weiss\Desktop\blog)
+2019-12-03 20:42:52.112 DEBUG 2108 --- [restartedMain] com.weiss.blog.BlogApplication           : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-12-03 20:42:52.113  INFO 2108 --- [restartedMain] com.weiss.blog.BlogApplication           : The following profiles are active: dev
+2019-12-03 20:42:52.229  INFO 2108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-03 20:42:52.230  INFO 2108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-03 20:42:53.799  INFO 2108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-03 20:42:53.980  INFO 2108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 168ms. Found 5 repository interfaces.
+2019-12-03 20:42:54.585  INFO 2108 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44c20a0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-03 20:42:55.362  INFO 2108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 91 (http)
+2019-12-03 20:42:55.397  INFO 2108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-03 20:42:55.398  INFO 2108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-12-03 20:42:55.688  INFO 2108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-03 20:42:55.689  INFO 2108 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3458 ms
+2019-12-03 20:42:55.961  INFO 2108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-03 20:42:56.186  INFO 2108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-03 20:42:56.249  INFO 2108 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-03 20:42:56.361  INFO 2108 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-12-03 20:42:56.362  INFO 2108 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-03 20:42:56.533  INFO 2108 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-03 20:42:56.813  INFO 2108 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-03 20:42:58.265  INFO 2108 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-03 20:42:58.386  INFO 2108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-03 20:42:59.093  INFO 2108 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-03 20:42:59.964  INFO 2108 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-03 20:43:00.055  WARN 2108 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-03 20:43:00.146  INFO 2108 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-03 20:43:01.024  INFO 2108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 91 (http) with context path ''
+2019-12-03 20:43:01.029  INFO 2108 --- [restartedMain] com.weiss.blog.BlogApplication           : Started BlogApplication in 10.782 seconds (JVM running for 13.291)
+2019-12-03 20:43:23.271  INFO 2108 --- [http-nio-91-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-03 20:43:23.272  INFO 2108 --- [http-nio-91-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-03 20:43:23.295  INFO 2108 --- [http-nio-91-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2019-12-03 20:43:23.351  INFO 2108 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-12-03 20:43:23.374  WARN 2108 --- [http-nio-91-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-12-03 20:43:23.515  INFO 2108 --- [http-nio-91-exec-1] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:43:28.199  INFO 2108 --- [http-nio-91-exec-4] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/16', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 16, {}]}
+2019-12-03 20:43:28.220  INFO 2108 --- [http-nio-91-exec-4] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:43:30.660  INFO 2108 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/20', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 20, {}]}
+2019-12-03 20:43:30.679  INFO 2108 --- [http-nio-91-exec-2] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:43:32.281  INFO 2108 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/16', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 16, {}]}
+2019-12-03 20:43:32.296  INFO 2108 --- [http-nio-91-exec-6] com.weiss.blog.aspect.LogAspect          : Result £º tags 
+2019-12-03 20:43:36.215  INFO 2108 --- [http-nio-91-exec-8] com.weiss.blog.aspect.LogAspect          : Request : {url='http://localhost:91/tags/20', ip='0:0:0:0:0:0:0:1', classMethod='com.weiss.blog.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 20, {}]}
+2019-12-03 20:43:36.233  INFO 2108 --- [http-nio-91-exec-8] com.weiss.blog.aspect.LogAspect          : Result £º tags 
